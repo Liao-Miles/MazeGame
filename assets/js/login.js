@@ -1,6 +1,6 @@
 import SoundManager from '../../assets/js/soundManager.js'; // 確保引入 SoundManager
 
-const API_BASE = 'https://mazegame-production-ffe3.up.railway.app';
+const API_BASE = 'http://localhost:8080';
 
 // 切換彈出式框顯示/隱藏
     window.toggleModal = function (show) {
