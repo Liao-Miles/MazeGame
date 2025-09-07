@@ -62,7 +62,7 @@
 
 ## 資料庫設計 ERD 圖
 
-<img src="./springboot-backend/src/main/resources/static/assets/images/erd.png" width="600">
+<img src="./assets/images/erd.png" width="600">
 
 ---
 
