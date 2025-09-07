@@ -16,6 +16,56 @@
 
 ---
 
+## 專案結構樹狀圖
+
+```plaintext
+.
+├── .idea
+├── assets
+│   ├── audio
+│   ├── css
+│   ├── font_style
+│   ├── images
+│   └── js
+├── database
+├── springboot-backend
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   │   └── com
+│       │   │       └── miles
+│       │   │           └── maze
+│       │   │               └── mazespace
+│       │   │                   ├── config
+│       │   │                   ├── controller
+│       │   │                   ├── dto
+│       │   │                   ├── entity
+│       │   │                   ├── repository
+│       │   │                   ├── service
+│       │   │                   └── MazeGmeApplication.java
+│       │   └── resources
+│       └── test
+│           └── java
+│               └── com
+│                   └── miles
+│                       └── maze
+│                           └── mazespace
+├── .gitattributes
+├── .gitignore
+├── pom.xml
+├── Level_1.html
+├── README.md
+└── achievements.html
+```
+
+---
+
+## 資料庫設計 ERD 圖
+
+<img src="./springboot-backend/src/main/resources/static/assets/images/erd.png" width="600">
+
+---
+
 ## 🎮 遊戲操作
 - **W**：向上移動  
 - **A**：向左移動  
